@@ -1,11 +1,11 @@
 import React from "react"
 import expect from "expect"
 import {shallow} from "enzyme"
-import Home from "../src/Home"
+import App from "../src/App"
 
-describe('Home', () => {
-    it('renders a hello message', () => {
-      const wrapper = shallow(<Home/>)
+describe('App', () => {
+    it('renders a greeting', () => {
+      const wrapper = shallow(<App/>)
 
       expect(wrapper.text()).toEqual('Hello, World!')
     });

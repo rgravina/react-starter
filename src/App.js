@@ -1,9 +1,9 @@
 import React from "react"
 
-class Home extends React.Component {
+class App extends React.Component {
     render() {
         return (<div>Hello, World!</div>)
     }
 }
 
-export default Home
+export default App
